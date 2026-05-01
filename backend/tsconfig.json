@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",            // Version JS compilée
+    "module": "CommonJS",          // Module Node
+    "lib": ["ES2019", "DOM"],      // Inclut les types natifs comme Exclude, Partial, etc.
+    "strict": true,                // Vérifications strictes
+    "esModuleInterop": true,       // Import de modules CommonJS
+    "skipLibCheck": true,          // Ignore les erreurs dans node_modules
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",            // Sortie compilée
+    "rootDir": "./"                // Racine des fichiers TS
+  },
+  "include": ["**/*.ts", "**/*.js"], 
+  "exclude": ["node_modules", "dist"]
+}

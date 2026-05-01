@@ -1,0 +1,145 @@
+
+        <html>
+            <head>
+        <style>
+            body { font-family: 'Times New Roman', Times, serif; margin: 40px; font-size: 11px; }
+            .header-pv { text-align: center; margin-bottom: 25px; }
+            .header-pv h1 { margin: 0; font-size: 18px; color: #333; }
+            
+            table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+            th, td { border: 1px solid #000; padding: 4px 6px; text-align: left; vertical-align: middle; }
+            
+            .pv-table th { background-color: #f0f0f0; font-weight: bold; text-align: center; }
+            .pv-table td { font-size: 10px; }
+            .text-right { text-align: right; }
+            .text-center { text-align: center; }
+
+            .pv-table thead { display: table-header-group; } /* Répète l'en-tête sur chaque page */
+        </style>
+    </head>
+            <body>
+                <div class="header-pv" style="page-break-after: always;">
+                    <h2>RÉPUBLIQUE DE ...</h2>
+                    <h1>PROCES-VERBAL DE RECENSEMENT ANNUEL DES BIENS</h1>
+                    <p><strong>Exercice : 2025</strong></p>
+                    <p style="margin-top: 15px;">Établi le: 10/11/2025</p>
+                    <p>Agent Recenseur: <strong>Mirellah</strong> (Comptable Matières)</p>
+                </div>
+
+                <table class="pv-table">
+                    
+        <thead>
+            <tr style="font-size: 10px;">
+                <th rowspan="3" style="width: 15%;">Désignation de la matière</th>
+                <th rowspan="3" style="width: 4%;">Unité</th>
+                <th rowspan="3" style="width: 7%; text-align: right;">Prix Unitaire</th>
+                <th colspan="4">QUANTITÉS</th>
+                <th colspan="5">VALEURS</th>
+                <th rowspan="3" style="width: 10%;">Observation</th>
+            </tr>
+            <tr style="font-size: 9px;">
+                <th colspan="2">Constat/Écritures</th>
+                <th colspan="2">Écart</th>
+                <th colspan="2">Des Excédents</th>
+                <th colspan="2">Des Déficits</th>
+                <th rowspan="2">Des Existants</th>
+            </tr>
+            <tr style="font-size: 9px;">
+                <th>Écritures</th>
+                <th>Constatés</th>
+                <th>Excédent</th>
+                <th>Déficit</th>
+                <th>Par article</th>
+                <th>Total Excédent</th>
+                <th>Par article</th>
+                <th>Total Déficit</th>
+            </tr>
+        </thead>
+    
+                    <tbody>
+                        
+        <tr>
+            <td style="width: 150px;">armoire</td>
+            <td class="text-center" style="width: 40px;">Nbre</td>
+            <td class="text-right">852 000,00</td>
+            
+            <td class="text-center">1</td>
+            <td class="text-center" style="font-weight: bold;">1</td>
+            <td class="text-center" style="color: green;"></td>
+            <td class="text-center" style="color: red;"></td>
+            
+            <td></td>
+            <td class="text-right"></td>
+            
+            <td class="text-right"></td>
+            <td class="text-right">0,00</td>
+            <td class="text-right" style="font-weight: bold;">852 000,00</td>
+            
+            <td>Bon état</td>
+        </tr>
+    
+        <tr>
+            <td style="width: 150px;">mkkod</td>
+            <td class="text-center" style="width: 40px;">Nbre</td>
+            <td class="text-right">852 000,00</td>
+            
+            <td class="text-center">2</td>
+            <td class="text-center" style="font-weight: bold;">1</td>
+            <td class="text-center" style="color: green;"></td>
+            <td class="text-center" style="color: red;">1</td>
+            
+            <td></td>
+            <td class="text-right"></td>
+            
+            <td class="text-right">852 000,00</td>
+            <td class="text-right">852 000,00</td>
+            <td class="text-right" style="font-weight: bold;">852 000,00</td>
+            
+            <td>Bon état</td>
+        </tr>
+    
+        <tr>
+            <td style="width: 150px;">nmnnnn</td>
+            <td class="text-center" style="width: 40px;">Nbre</td>
+            <td class="text-right">100 008,00</td>
+            
+            <td class="text-center">1</td>
+            <td class="text-center" style="font-weight: bold;">1</td>
+            <td class="text-center" style="color: green;"></td>
+            <td class="text-center" style="color: red;"></td>
+            
+            <td></td>
+            <td class="text-right"></td>
+            
+            <td class="text-right"></td>
+            <td class="text-right">0,00</td>
+            <td class="text-right" style="font-weight: bold;">100 008,00</td>
+            
+            <td>Bon état</td>
+        </tr>
+    
+                        
+        <tr style="background-color: #e0f0ff; font-weight: bold;">
+            <td colspan="7" class="text-right">TOTAUX GÉNÉRAUX</td>
+            <td></td>
+            <td class="text-right"></td> <td></td>
+            <td class="text-right">852 000,00</td>
+            <td class="text-right" style="font-weight: bold;">1 804 008,00</td>
+            <td></td>
+        </tr>
+    
+                    </tbody>
+                </table>
+                
+        <div style="margin-top: 50px;">
+            <p>Le présent Procès-Verbal comprend un total de 3 lignes de biens et est établi en présence des parties prenantes.</p>
+            <div style="display: flex; justify-content: space-between; margin-top: 30px;">
+                <p><strong>Fait à [Lieu], le 10/11/2025</strong></p>
+                <p style="text-align: right; width: 30%;">Le Comptable Matières</p>
+                <p style="text-align: right; width: 30%;">Le Responsable Comptable</p>
+            </div>
+        </div>
+    
+            </body>
+        </html>
+    
