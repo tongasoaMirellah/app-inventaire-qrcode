@@ -47,4 +47,4 @@ npm start
 
 ## Objectif
 
-Projet réalisé dans un cadre académique pour digitaliser la gestion d’inventaire et améliorer le suivi des biens dans une organisation.
+Projet développé dans le cadre d’un stage, ayant pour objectif de digitaliser la gestion d’inventaire et d’améliorer le suivi des biens au sein d’une organisation via un système de QR Code.
